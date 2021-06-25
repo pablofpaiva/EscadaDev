@@ -4,24 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UdemySplit
+namespace Aula2._1DellCondicionalIF
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
-            String[] v = s.Split(' ');
+            string clima = "bom";
+            if (clima == "bom") ;
+            {
 
-            
+                Console.WriteLine("vamos a praia"); 
 
-            string a = v[0];
+            }
 
-            string b = v[1];
-
-            string c = v[2];
-
-            Console.WriteLine("vc digitou" + v);
+            Console.Write("ficar em casa . nublado ");
+            Console.ReadLine();
         }
     }
 }
