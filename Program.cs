@@ -1,25 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Aula2._1DellCondicionalIF
+namespace Aula2._1DellAcoplamento
 {
-    class Program
+    class Pedido
+
+
+
+
+
+
+
     {
-        static void Main(string[] args)
-        {
-            string clima = "bom";
-            if (clima == "bom") ;
-            {
+        public int CodPed;
+        public string Dataped;
+        public string CpfCliente;
+        public string ItemPedido;
 
-                Console.WriteLine("vamos a praia"); 
 
-            }
 
-            Console.Write("ficar em casa . nublado ");
-            Console.ReadLine();
-        }
+
+
+
     }
+    class ItemPedido
+    {
+        public int CodItem;
+        public string DescItem;
+        public float ValorItem;
+
+
+
+
+    }
+
+
+
+
 }
+
